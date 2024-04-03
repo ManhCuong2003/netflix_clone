@@ -1,0 +1,23 @@
+.header {
+  padding: 0.5% 1%;
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+
+  &__logo {
+    color: red;
+    text-decoration: none;
+    flex-grow: 1;
+  }
+  &__search {
+    background-color: #434343;
+    border-radius: 4px;
+    & .MuiInputBase-root {
+      color: #fff;
+      height: 40px;
+      &.Mui-focused .MuiOutlinedInput-notchedOutline {
+        border: none;
+      }
+    }
+  }
+}

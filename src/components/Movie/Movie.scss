@@ -1,0 +1,34 @@
+.movie__element {
+  display: block;
+  padding: 3%;
+  text-decoration: none;
+  background-color: #000 !important;
+  transition: all ease 0.5s;
+
+  &.movie__element_poster {
+    border: 1px solid #fff;
+    width: fit-content;
+  }
+
+  &:hover {
+    transform: scale(1.2);
+    transition: all ease 0.5s;
+  }
+
+  &__image__background {
+    height: 200px;
+  }
+
+  &__image__poster {
+    &.MuiCardMedia-root {
+      width: 100%;
+      height: 300px;
+      object-fit: contain;
+    }
+  }
+
+  &__content {
+    background-color: #000;
+    color: #fff;
+  }
+}
